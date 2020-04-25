@@ -1,6 +1,7 @@
 name: "Github Actions Telegram Bot"
 
 on:
+  push: 
   schedule: 
     - 0 16 * * *
 
