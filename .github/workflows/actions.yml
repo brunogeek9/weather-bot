@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: 'Instaling Node'
-      - uses: actions/setup-node@v1
+        uses: actions/setup-node@v1
       - name: 'Instaling Project Dependencies'
-      run: npm install
+        run: npm install
       - name: 'Runing The Telegram Bot'
-      run: node index.js
+        run: node index.js
       env:
         CHAT_ID: ${{secrets.CHAT_ID}}
         TELEGRAM_TOKEN: ${{secrets.TELEGRAM_TOKEN}}
