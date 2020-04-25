@@ -24,7 +24,6 @@ const convertCelcius = data => (data - 273.15).toFixed(2)
 const main = async() => {
     const weatherData = await getWeatherData();
     const weatherString = generateWeatherMessage(weatherData);
-    // console.log(weatherData);
     console.log(`Celcius Temp ${convertCelcius(weatherData.main.temp)}`);
     console.log(weatherString);
     bot.sendMessage(process.env.CHAT_ID, weatherString);
