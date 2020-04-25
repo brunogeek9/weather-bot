@@ -2,10 +2,8 @@ name: "Github Actions Telegram Bot"
 
 on:
   push:
-    branches:
-      - master
-  schedule: 
-    - 0 16 * * *
+  schedule:
+    - cron: '0 14 * * *'
 
 jobs:
   bot:
