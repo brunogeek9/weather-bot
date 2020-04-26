@@ -6,7 +6,9 @@
 WEATER BOT
 </h1>
 
-<p align="center">Weather forecast bot implemented with javascript and github actions. </p>
+<p align="center">
+Weather forecast bot that sends the current state of the weather once a day at any defined time or every new push made in the repository. Automating the execution of sending messages to the telegram was done using github actions. For more details on the bot configuration, you can contact me on any of the social networks below.
+</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -28,7 +30,9 @@ WEATER BOT
 </p>
 
 <div align="center">
-  <img src="screenshots/demo_bot.gif" alt="demo" height="260">
+  <img src="screenshots/demo_bot.gif" alt="demo" height="240">
+  <img src="screenshots/print_telegram.png" alt="print" height="240">
+
 </div>
 
 ## Features
