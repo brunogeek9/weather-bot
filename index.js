@@ -17,8 +17,8 @@ const getWeatherData = async() => {
 const generateWeatherMessage = weatherData =>
     `The Weather data in ${weatherData.name}: ${weatherData.weather[0].description}. Current\
  Temperature is ${convertCelcius(weatherData.main.temp)}, with a low temp of \
- ${convertCelcius(weatherData.main.temp_min)} and high of ${convertCelcius(weatherData.main.temp_max)} and air humidity is in \
- ${weatherData.main.humidity}`
+ ${convertCelcius(weatherData.main.temp_min)} and high of ${convertCelcius(weatherData.main.temp_max)} and air humidity is in\
+ ${weatherData.main.humidity}.`
 
 const convertCelcius = data => `${(data - 273.15).toFixed(2)}°С `
 
@@ -30,6 +30,4 @@ const main = async() => {
     bot.sendMessage(process.env.CHAT_ID, weatherString);
 }
 
-
 main();
-// teste actions github
