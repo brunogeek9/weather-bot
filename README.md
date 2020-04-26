@@ -25,7 +25,16 @@ WEATER BOT
 
 ## Getting started
 
-Describe here the way to use/install your project
+<ul>
+  
+  `npm install`
+  
+  <p>
+    After installing the packages you must create the following variables in your .env file and put your credentials 
+    <kbd>WEATHER_API_TOKEN</kbd>, <kbd>TELEGRAM_TOKEN</kbd> and <kbd>CHAT_ID</kbd>.
+  </p>
+  
+</ul>
 
 
 ## License
