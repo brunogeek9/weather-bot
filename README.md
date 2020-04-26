@@ -17,3 +17,17 @@ WEATER BOT
 <div align="center">
   <img src="screenshots/demo_bot.gif" alt="demo" height="260">
 </div>
+
+## Features
+- **dotenv** — A JavaScript library for using environment variables
+- **node-telegram-bot-api** — A lib that provides a way to send messages to the telegram
+- **node-fetch** — Provide access to the fetch api on the backend
+
+## Getting started
+
+Describe here the way to use/install your project
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
